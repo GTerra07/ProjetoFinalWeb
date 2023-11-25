@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gerenciamento de Anotações</title>
+</head>
+<body>
+    <div class="container">
+        <div id="addNoteSection">
+            <h3>Adicionar Anotação</h3>
+            <input type="text" id="noteTitle" placeholder="Título da Anotação">
+            <input type="text" id="noteId" placeholder="ID do Produto">
+            <textarea id="noteDescription" placeholder="Descrição da Anotação"></textarea>
+            <button id="addNote">Adicionar</button>
+        </div>
+
+        <div id="editNoteSection">
+            <h3>Alterar Anotação</h3>
+            <input type="text" id="editNoteId" placeholder="ID da Anotação">
+            <input type="text" id="editNoteTitle" placeholder="Novo Título da Anotação">
+            <textarea id="editNoteDescription" placeholder="Nova Descrição da Anotação"></textarea>
+            <button id="editNote">Alterar</button>
+        </div>
+
+        <div id="noteListSection" style="overflow-y: auto; max-height: 400px;">
+            <h3>Listagem de Anotações</h3>
+            <div id="noteList"></div>
+        </div>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+</html>

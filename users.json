@@ -1,5 +1,20 @@
 [
-    {"email": "usuario1@example.com", "senha": "senha1", "nome": "Usuario1", "dataNascimento": "01/01/1990"},
-    {"email": "usuario2@example.com", "senha": "senha2", "nome": "Usuario2", "dataNascimento": "02/02/1991"}
-  ]
-  
+  {
+    "email": "usuario1@example.com",
+    "senha": "senha1",
+    "nome": "Usuario1",
+    "dataNascimento": "01/01/1990"
+  },
+  {
+    "email": "usuario2@example.com",
+    "senha": "senha2",
+    "nome": "Usuario2",
+    "dataNascimento": "02/02/1991"
+  },
+  {
+    "email": "teste",
+    "senha": "teste",
+    "nome": "teste",
+    "dataNascimento": "teste"
+  }
+]
